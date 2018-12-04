@@ -1,0 +1,25 @@
+$header-height: 76px;
+$aside-width: 150px;
+
+// z-index
+$z-index: base, fixed;
+
+// color
+$success: #67c23a;
+$success-bg: #f0f9eb;
+$warning: #f56c6c;
+$warning-bg: #fdf5e6;
+$blue: #409eff;
+$danger: #fa5555;
+$info: #878d99;
+$z-index: base, base2, base3, fixed , dialog-wrapper, dialog;
+
+.combine-item {
+  .el-input {
+    margin-bottom: 22px;
+  }
+  .el-form-item__error {
+    left: 80px;
+    margin-top: -20px;
+  }
+}

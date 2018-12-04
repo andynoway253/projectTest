@@ -1,0 +1,109 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+.layout__container {
+  position: relative;
+  &.el-main {
+    padding-top: 0;
+  }
+}
+
+.layout__aside {
+  position: relative;
+}
+
+.layout__viewport {
+  position: relative;
+}
+
+.fa-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.content-label {
+  display: inline-block;
+  margin-bottom: .5em;
+  & > {
+    & .el-input,
+    & .el-date-editor,
+    & .el-select {
+      width: auto;
+      margin: 0 .5em;
+    }
+  }
+}
+
+.control-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.el-dialog__select {
+  width: 100% !important;
+}
+
+.el-table .warning-row {
+  background: $warning-bg;
+}
+
+.el-table .success-row {
+  background: $success-bg;
+}
+
+.text-blue {
+  color: $blue;
+}
+.text-success {
+  color: $success;
+}
+.text-warning {
+  color: $warning;
+}
+.text-danger {
+  color: $danger;
+}
+.text-info {
+  color: $info;
+}
+
+.bottom-1em {
+  margin-bottom: 1em;
+}
+.el-form-item__img {
+  max-width: 100%;
+}
+
+.el-form-item__upload__text {
+  margin-left: 1em;
+  font-size: .85em;
+  color: $warning;
+}
+
+.quill-editor {
+  margin-bottom: 22px;
+}
+
+.ql-editor {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.ql-toolbar {
+  line-height: normal;
+}
+
+.el-message {
+  z-index: 10001 !important;
+}
+
+.el-slider__button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.el-pagination {
+  margin-top: 20px;
+}

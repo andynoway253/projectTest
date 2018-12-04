@@ -1,0 +1,56 @@
+@import "../../assets/scss/share";
+
+.header-bar {
+  position: relative;
+  z-index: index($z-index, fixed);
+  display: flex;
+  align-items: center;
+  height: $header-height;
+}
+.pwa-form {
+  z-index: index($z-index, fixed);
+}
+.el-breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  &.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    animation: slidein 1s ease 1;
+  }
+}
+.el-icon-menu {
+  margin-right: 1em;
+}
+.user-info {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+.user-text {
+  margin: 0 .5em;
+}
+
+.header-button {
+  padding: .5em;
+  margin-left: 1em;
+}
+
+.el-icon-d-arrow-right {
+  margin-left: .5em;
+}
+
+@keyframes slidein {
+  from {
+    top: -$header-height;
+  }
+  to {
+    top: 0;
+  }
+}
